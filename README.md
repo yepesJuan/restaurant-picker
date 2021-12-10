@@ -2,12 +2,12 @@
 Created a restaurant finder mobile app that fetches data from an api.\
 The api has the restaurants' name, image, location, and details.\
 
-### Getting Started with Create React App
-This project was bootstrapped with Create React App
+## :hand: Getting Started with a React Native App
 
-### Available Scripts
-In the project directory, you can run:
+- npx expo-cli init food-finder(name of project)
+- yarn ios
+- yarn add @react-navigation/native
+- expo install react-native-screens react-native-safe-area-context
+- yarn add @react-navigation/native-stack
 
-### yarn start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.
+
