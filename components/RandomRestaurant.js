@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import { View , Button} from 'react-native'
 import { RestaurantContext } from '../App'
 import RestaurantCard from './RestaurantCard';
-import styles from '../styles'
+
 
 export default function RandomResturant() {
     const { restaurants } = useContext(RestaurantContext)

@@ -6,6 +6,7 @@ const styles = StyleSheet.create({
       backgroundColor: "#fff",
       alignItems: "center",
       justifyContent: "center",
+      backgroundColor: "#cde"
     },
     card: {
         margin: 8,
@@ -14,6 +15,7 @@ const styles = StyleSheet.create({
         borderColor: '#807060',
         borderWidth: 1,
         width: 320,
+        backgroundColor: "#fff"
         // elevation: 5,
         // shadowColor: '#807060',
         // shadowOffset: { width: 1, height: 2},
@@ -23,8 +25,8 @@ const styles = StyleSheet.create({
     cardImage: {
         width: 318,
         height: 200,
-        borderTopRightRadius: 9,
-        borderTopLeftRadius: 9,
+        borderTopRightRadius: 8,
+        borderTopLeftRadius: 8,
 
     },
     cardTitle: {
@@ -34,7 +36,12 @@ const styles = StyleSheet.create({
     },
     cardSubtitle: {
         fontSize: 16,
+        fontWeight: '200',
         padding: 4,
+    },
+    detailsImage: {
+      width: '100%',
+      height: 200,
     }
 
 })
